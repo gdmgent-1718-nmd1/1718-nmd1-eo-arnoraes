@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'englishTowne';
+    src: url('./englishtowne-webfont.woff2') format('woff2'),
+         url('./englishtowne-webfont.woff') format('woff');
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,bold,medium,blackitalic|Raleway:regular,800);
+
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -15,4 +27,92 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
-/* Voeg jouw css hieraan toe */
+p{
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.logo{
+    font-family:'Raleway', Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 175px;
+    color: rgb(84, 58, 145);
+    letter-spacing: -35px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.and {
+    color: rgb(173, 155, 221);
+}
+
+.menubar{
+    font-size: 17px;
+    color: rgb(84, 58, 145);
+}
+
+.eyecatcher {
+    font-family: 'englishTowne', serif;
+    font-size: 296px;
+    color: rgb(228, 192, 0);
+    line-height: 277px;
+    margin: 0px;
+
+}
+
+.titel {
+    font-size: 97px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(84, 58, 145);
+    text-transform: uppercase;
+}
+
+.tussentitel{
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(84, 58, 145);
+    text-transform: uppercase;
+}
+
+.tekst1{
+    font-family:'Raleway', Arial, sans-serif;
+    font-size: 17px;
+    color: rgb(84, 58, 145);
+}
+
+.tekst2{
+    font-family:'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(84, 58, 145);
+    text-transform: uppercase;
+}
+
+.paars{
+    background-color: rgb(84, 58, 145);
+    color: rgb(228, 192, 0);
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
+
+.roze{
+    background-color: rgb(173, 155, 221);
+    color: rgb(84, 58, 145);
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
+
+.geel{
+    background-color: rgb(228, 192, 0);
+    color: rgb(84, 58, 145);
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+}
