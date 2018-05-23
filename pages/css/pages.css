@@ -116,3 +116,50 @@ p{
     width: 300px;
     margin: 10px;
 }
+
+.verzenden{
+    padding: 20px 150px;
+    background-color: rgb(228, 192, 0);
+    color: rgb(84, 58, 145);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ander{
+    padding: 10px 90px;
+    background-color: rgb(84, 58, 145);
+    color: rgb(228, 192, 0);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 29px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.input {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid rgb(173, 155, 221);
+    box-sizing: border-box;
+    background-color: rgb(84, 58, 145);
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    color:rgb(173, 155, 221);
+    text-transform: uppercase;
+}
